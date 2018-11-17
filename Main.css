@@ -1,5 +1,6 @@
 .navbar{
 	margin-bottom: 0px; 
+	background-color: #222;
 }
 
 .container-fluid{
@@ -60,9 +61,26 @@ textarea {
 
 .gallery img{
 	padding:0.5em;
+	position: relative;
+	float: center;
+	height: 280px;
+	width: 280px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #myCarousel img {
   height: 500px;
   max-height: 500px;
+}
+
+.footer{
+	margin-top: 3em;
+	background-color: #222;
+	height: 40px;
+}
+
+.contact{
+	margin-top: 2em;
 }
