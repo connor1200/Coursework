@@ -1,3 +1,5 @@
+/* Main Css File applied to all pages */
+/* all */
 .navbar{
 	margin-bottom: 0px; 
 	background-color: #222;
@@ -9,26 +11,9 @@
 	border-radius: 0px;
 }
 
-.jumbotron{
-	height: 500px;
-	background-image: url("Images/background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	color: #FFF;
-}
-
 .center {
 	text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.fb-like{
-	text-align: center;
-	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -38,13 +23,56 @@
 	width: 10%;
 }
 
+.footer{
+	margin-top: 3em;
+	background-color: #222;
+	height: 40px;
+}
+
+/* Image Gallerys */
+.gallery{
+	padding-top: 1em;
+}
+
+
+.gallery img{
+	padding:0.5em;
+	position: relative;
+	float: center;
+	height: 250px;
+	width: 280px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Home page */
+.jumbotron{
+	height: 500px;
+	background-image: url("Images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+}
+
+/* CV */
+.fb-like{
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Contact */
 .EmailForm{
 	padding-top: 5em;
 	width: 100%;
 }
 
-.project{
-	margin-top: 5em;
+.contact{
+	margin-top: 2em;
 }
 
 input[type=text] {
@@ -63,32 +91,12 @@ textarea {
     border-radius: 4px;
 }
 
-.gallery{
-	padding-top: 1em;
-}
-
-.gallery img{
-	padding:0.5em;
-	position: relative;
-	float: center;
-	height: 250px;
-	width: 280px;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
+/* Projects */
+.project{
+	margin-top: 5em;
 }
 
 #myCarousel img {
   height: 500px;
   max-height: 500px;
-}
-
-.footer{
-	margin-top: 3em;
-	background-color: #222;
-	height: 40px;
-}
-
-.contact{
-	margin-top: 2em;
 }
