@@ -26,6 +26,14 @@
     width: 100%;
 }
 
+.fb-like{
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 .center img{
 	width: 10%;
 }
@@ -63,7 +71,7 @@ textarea {
 	padding:0.5em;
 	position: relative;
 	float: center;
-	height: 280px;
+	height: 250px;
 	width: 280px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
